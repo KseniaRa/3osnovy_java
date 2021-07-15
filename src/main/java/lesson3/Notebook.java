@@ -21,7 +21,7 @@ public class Notebook {
         this.isNew=isNew;
     }
 
-    void setCategory(){
+    void setCategory(String category){
         this.category=category;
     }
 
