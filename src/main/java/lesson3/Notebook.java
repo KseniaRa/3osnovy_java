@@ -4,7 +4,7 @@ public class Notebook {
     String color;
     int pages;
     boolean isNew = true;
-    String category= "a";
+    String category;
 
     static String companyName= "NotebookMark";
 
@@ -17,11 +17,21 @@ public class Notebook {
         this.pages = pages;
     }
 
+    void novelty(){
+        this.isNew=isNew;
+    }
+
+    void setCategory(){
+        this.category=category;
+    }
+
     void setPages(int pages){
+
         this.pages =pages;
     };
 
     String getColor() {
+
         return color;
     }
 
